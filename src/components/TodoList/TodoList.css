@@ -1,0 +1,33 @@
+.TodoList {
+    margin: 15px auto;
+    padding: 2rem 3rem 3rem;
+    background: #42aaf5;
+    color: #fff;
+    box-shadow: 5px 10px 8px 10px #888888;
+    overflow: hidden;
+    min-height: 450px;
+    position: relative;
+}
+  .TodoList ul {
+    margin-top: 2.6rem;
+    list-style: none;
+    margin-bottom: 60px;
+  }
+.add-task{
+  bottom: 40px;
+  position: absolute;
+  margin: auto;
+  display: inline-block;
+  cursor: pointer;
+}
+.add-task .addBtn{
+  background-color: green;
+  color: #fff;
+  border-radius: 50%;
+  padding: 20px;
+}
+.add-task .addBtn:hover{
+  background-color: rgb(41 137 41);
+}
+  
+ 
